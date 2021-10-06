@@ -17,6 +17,7 @@ namespace MavPASS_CIS122_20211005
 		public Monster(int aId, string aName, int aHealth, int anArmor, int aDamage)
 			: base(aId, aName, aHealth, "Monster", anArmor, aDamage) { }
 
+		// Methods
 		public Entity Attack(Entity e)
 		{
 			int damageDealt = -e.Armor;
