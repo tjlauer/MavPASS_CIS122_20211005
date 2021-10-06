@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MavPASS_CIS122_20211005
 {
-	public class Player : Entity, IAction
+	public sealed class Player : Entity, IAction
 	{
 		// Constructors
 		public Player() : base(-1, "n/a", -1, "Player", 0, 0) { }
